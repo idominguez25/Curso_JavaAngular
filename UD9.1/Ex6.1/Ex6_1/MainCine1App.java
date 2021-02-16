@@ -12,16 +12,12 @@ public class MainCine1App {
 		
 		Metodos.generarEspectadores();
 		
-		
 		int filaAleatoria = Metodos.generaNumeroEnteroAleatorio(0, cine.getSala().length - 1);
         char letraAleatoria = (char) Metodos.generaNumeroEnteroAleatorio('A', 'A' + (cine.getSala()[0].length -1));
         
-        System.out.println(filaAleatoria);
-        System.out.println(letraAleatoria);
-	
-		if ((Metodos.hayAsiento(filaAleatoria, letraAleatoria, cine.sala)) && (Metodos.puedeSentarse(null))){
+		//if ((Metodos.hayAsiento(filaAleatoria, letraAleatoria, cine.sala)) && (Metodos.puedeSentarse(null))){
 			
-        }
+        //}
         
 	}
 

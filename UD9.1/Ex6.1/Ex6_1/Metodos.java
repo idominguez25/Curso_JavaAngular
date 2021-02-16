@@ -1,7 +1,5 @@
 package Ex6_1;
 
-import Ex6.Asiento;
-
 public class Metodos {
 	
 	public static void generarEspectadores() {
@@ -51,10 +49,10 @@ public class Metodos {
 		  
 	  }
 	  
-	  public static boolean puedeSentarse(Espectador [] espectadores) {
-		  if (espectadores.tieneDinero() && espectadores.tieneEdad(Pelicula.getEdadMin()))
-		return false;
+	  //public static boolean puedeSentarse(Espectador [] espectadores) {
+		//  if (espectadores.tieneDinero() && espectadores.tieneEdad(Pelicula.getEdadMin()))
+		//return false;
 		  
-	  }
+	//  }
 	
 }
