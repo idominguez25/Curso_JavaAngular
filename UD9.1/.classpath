@@ -10,7 +10,6 @@
 	<classpathentry kind="src" path="Ex3"/>
 	<classpathentry kind="src" path="Ex1"/>
 	<classpathentry kind="src" path="Ex2"/>
-	<classpathentry kind="src" path="Ex6"/>
 	<classpathentry kind="src" path="Ex6.1"/>
 	<classpathentry kind="src" path="Ex4"/>
 	<classpathentry kind="output" path="bin"/>
