@@ -8,6 +8,8 @@ Repositorio donde están los ejercicios de todas las UD's hechas durante el curs
 -JDK 8.
 -Eclipse IDE for Enterprise Java Developers.
 -Windows 10.
+-MySQL Server 8.
+-MySQL Workbench 8.0.
 ```
 ### Utils/Librerías
 -JRE System Library 
