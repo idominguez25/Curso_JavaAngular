@@ -14,8 +14,8 @@ Ejercicios relacionados con:
 -Clases padre y clases hijas.
 -Herencia de métodos y atributos de la clase padre.
 -Modificadores de acceso.
--Clase abstracta.
--Interfaz.
+-Clases abstractas.
+-Interfaces.
 ```
 
 ### 2. Link a un demo con el proyecto desplegado:
