@@ -6,7 +6,7 @@
 | --- | :---:  | :---:  | :---:  | :---: | :---:  |
 | Ingrid Dominguez | Dev 1 | FullStack Developer | 01/02/2021 | UD14  | 1.0  |
 | Cesar Torrelles | Dev 2 | FullStack Developer | 01/02/2021 | UD14  | 1.0  | 
-| Vyacheslav Khaydorov | Dev 3 | FullStack Developer| 01-02-2021 | UD14  | 1.0  |
+| Vyacheslav Khaydorov | Dev 3 | FullStack Developer| 01/02/2021 | UD14  | 1.0  |
 
 ###   2. Descripción
 
@@ -16,13 +16,14 @@ CC21_REUS_JavaAngular_2
 
 ###  3. Link a un demo con el proyecto desplegado:
 
-repositorio de los ejercicios:
+Repositorio de los ejercicios:
 ```
-https://github.com/cesar-torrelles/UD14.git
+https://github.com/idominguez25/Curso_JavaAngular/tree/master/UD14
 ```
 ###   4. Lista de herramientas para poder ejecutarlo:
 ```
-MySQL  Server
+MySQL Server 8
 MySQL Workbench
 ```
 ###  5. Screenshot imagen que indique cómo debe verse el proyecto.
+![banerGit](https://github.com/idominguez25/Curso_JavaAngular/blob/master/UD14/README.PNG)
