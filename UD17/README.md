@@ -20,16 +20,13 @@ CC21_REUS_JavaAngular_2
 
 Se puede acceder al repositorio de los ejercicios por medio de cualquiera de los links siguientes:
 ```
-
-https://github.com/cesar-torrelles/UD17
-
-
+https://github.com/idominguez25/Curso_JavaAngular/tree/master/UD17
 ```
 ###   4. Lista de herramientas para poder ejecutarlo:
 ```
-Mongo DB community 4.2
-Robo 3T 1.4.3
-Studio 3T 2021
+-Mongo DB community 4.2
+-Robo 3T 1.4.3
+-Studio 3T 2021
 ```
 
 
