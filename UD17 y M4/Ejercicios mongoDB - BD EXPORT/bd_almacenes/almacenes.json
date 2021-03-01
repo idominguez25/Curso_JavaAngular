@@ -1,0 +1,50 @@
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0ea"), 
+    "lugar" : "España", 
+    "capacidad" : "20"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0eb"), 
+    "lugar" : "Francia", 
+    "capacidad" : "30"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0ec"), 
+    "lugar" : "Alemania", 
+    "capacidad" : "20"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0ed"), 
+    "lugar" : "Suiza", 
+    "capacidad" : "50"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0ee"), 
+    "lugar" : "Italia", 
+    "capacidad" : "10"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0ef"), 
+    "lugar" : "Grecia", 
+    "capacidad" : "20"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0f0"), 
+    "lugar" : "Inglaterra", 
+    "capacidad" : "70"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0f1"), 
+    "lugar" : "Portugal", 
+    "capacidad" : "80"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0f2"), 
+    "lugar" : "Polonia", 
+    "capacidad" : "90"
+}
+{ 
+    "_id" : ObjectId("603bd0ed4b5ccabb847bb0f3"), 
+    "lugar" : "Ukrania", 
+    "capacidad" : "100"
+}

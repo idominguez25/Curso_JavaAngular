@@ -1,0 +1,50 @@
+{ 
+    "_id" : "85648262", 
+    "nomApels" : "Jose Manuel Medrano", 
+    "facultad" : 1.0
+}
+{ 
+    "_id" : "54647823", 
+    "nomApels" : "Jose Antonio Pelaez", 
+    "facultad" : 2.0
+}
+{ 
+    "_id" : "46543225", 
+    "nomApels" : "Elsa Rus", 
+    "facultad" : 8.0
+}
+{ 
+    "_id" : "68826015", 
+    "nomApels" : "Lara Osorio", 
+    "facultad" : 4.0
+}
+{ 
+    "_id" : "46865330", 
+    "nomApels" : "Armando Mohamed", 
+    "facultad" : 2.0
+}
+{ 
+    "_id" : "45643205", 
+    "nomApels" : "Mireia Novo", 
+    "facultad" : 3.0
+}
+{ 
+    "_id" : "46481887", 
+    "nomApels" : "Ander Alcala", 
+    "facultad" : 5.0
+}
+{ 
+    "_id" : "46304124", 
+    "nomApels" : "Aroa Avila", 
+    "facultad" : 9.0
+}
+{ 
+    "_id" : "66005485", 
+    "nomApels" : "Matilde Pérez", 
+    "facultad" : 10.0
+}
+{ 
+    "_id" : "45642230", 
+    "nomApels" : "Dylan Robles", 
+    "facultad" : 6.0
+}
