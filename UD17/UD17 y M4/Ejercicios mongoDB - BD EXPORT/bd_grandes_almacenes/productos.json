@@ -1,0 +1,50 @@
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb11c"), 
+    "nombre" : "carteras", 
+    "precio" : 15.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb11d"), 
+    "nombre" : "zapatos", 
+    "precio" : 45.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb11e"), 
+    "nombre" : "camisetas", 
+    "precio" : 15.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb11f"), 
+    "nombre" : "pantalones", 
+    "precio" : 25.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb120"), 
+    "nombre" : "gorras", 
+    "precio" : 35.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb121"), 
+    "nombre" : "chanclas", 
+    "precio" : 15.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb122"), 
+    "nombre" : "collares", 
+    "precio" : 50.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb123"), 
+    "nombre" : "gafas", 
+    "precio" : 53.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb124"), 
+    "nombre" : "calcetines", 
+    "precio" : 12.0
+}
+{ 
+    "_id" : ObjectId("603bd8394b5ccabb847bb125"), 
+    "nombre" : "cinturones", 
+    "precio" : 14.0
+}

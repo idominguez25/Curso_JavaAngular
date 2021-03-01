@@ -1,0 +1,40 @@
+{ 
+    "_id" : 1.0, 
+    "nombre" : "Facultad de Agronomía"
+}
+{ 
+    "_id" : 2.0, 
+    "nombre" : "Facultad de Arquitectura"
+}
+{ 
+    "_id" : 3.0, 
+    "nombre" : "Facultad de Ciencias de la Educación"
+}
+{ 
+    "_id" : 4.0, 
+    "nombre" : "Facultad de Ciencias Económicas"
+}
+{ 
+    "_id" : 5.0, 
+    "nombre" : "Facultad de Química"
+}
+{ 
+    "_id" : 6.0, 
+    "nombre" : "Facultad de Ciencias Sociales"
+}
+{ 
+    "_id" : 7.0, 
+    "nombre" : "Facultad de Derecho"
+}
+{ 
+    "_id" : 8.0, 
+    "nombre" : "Facultad de Educación Física"
+}
+{ 
+    "_id" : 9.0, 
+    "nombre" : "Facultad de Filosofía"
+}
+{ 
+    "_id" : 10.0, 
+    "nombre" : "Facultad de Humanidades"
+}

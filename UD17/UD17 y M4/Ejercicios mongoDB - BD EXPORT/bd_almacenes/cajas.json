@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f4"), 
+    "contenido" : "5", 
+    "valor" : "100", 
+    "almacen" : "España"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f5"), 
+    "contenido" : "4", 
+    "valor" : "100", 
+    "almacen" : "Francia"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f6"), 
+    "contenido" : "3", 
+    "valor" : "100", 
+    "almacen" : "Alemania"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f7"), 
+    "contenido" : "15", 
+    "valor" : "100", 
+    "almacen" : "Suiza"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f8"), 
+    "contenido" : "30", 
+    "valor" : "100", 
+    "almacen" : "Italia"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0f9"), 
+    "contenido" : "10", 
+    "valor" : "100", 
+    "almacen" : "Grecia"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0fa"), 
+    "contenido" : "18", 
+    "valor" : "100", 
+    "almacen" : "Inglaterra"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0fb"), 
+    "contenido" : "23", 
+    "valor" : "100", 
+    "almacen" : "Portugal"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0fc"), 
+    "contenido" : "45", 
+    "valor" : "100", 
+    "almacen" : "Polonia"
+}
+{ 
+    "_id" : ObjectId("603bd0ef4b5ccabb847bb0fd"), 
+    "contenido" : "89", 
+    "valor" : "100", 
+    "almacen" : "Ukrania"
+}
