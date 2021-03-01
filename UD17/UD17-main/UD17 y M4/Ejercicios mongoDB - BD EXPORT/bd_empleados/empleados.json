@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e0"), 
+    "nombre" : "Jorge", 
+    "apellido" : "Alvarez", 
+    "departamento" : "A"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e1"), 
+    "nombre" : "Anais", 
+    "apellido" : "Fernandez", 
+    "departamento" : "B"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e2"), 
+    "nombre" : "Raul", 
+    "apellido" : "Blas", 
+    "departamento" : "C"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e3"), 
+    "nombre" : "Alberto", 
+    "apellido" : "Conte", 
+    "departamento" : "D"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e4"), 
+    "nombre" : "Oscar", 
+    "apellido" : "Montes", 
+    "departamento" : "E"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e5"), 
+    "nombre" : "Daniel", 
+    "apellido" : "Nuvo", 
+    "departamento" : "F"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e6"), 
+    "nombre" : "David", 
+    "apellido" : "Mesa", 
+    "departamento" : "G"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e7"), 
+    "nombre" : "Asuncion", 
+    "apellido" : "Cardenas", 
+    "departamento" : "H"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e8"), 
+    "nombre" : "Carlos", 
+    "apellido" : "Zambrano", 
+    "departamento" : "I"
+}
+{ 
+    "_id" : ObjectId("603bd0c74b5ccabb847bb0e9"), 
+    "nombre" : "Hector", 
+    "apellido" : "Zulia", 
+    "departamento" : "J"
+}

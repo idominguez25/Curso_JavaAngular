@@ -1,0 +1,50 @@
+{ 
+    "_id" : "0001", 
+    "nombre" : "Equipo1", 
+    "facultad" : 2.0
+}
+{ 
+    "_id" : "0002", 
+    "nombre" : "Equipo2", 
+    "facultad" : 6.0
+}
+{ 
+    "_id" : "0003", 
+    "nombre" : "Equipo3", 
+    "facultad" : 2.0
+}
+{ 
+    "_id" : "0004", 
+    "nombre" : "Equipo4", 
+    "facultad" : 7.0
+}
+{ 
+    "_id" : "0005", 
+    "nombre" : "Equipo5", 
+    "facultad" : 3.0
+}
+{ 
+    "_id" : "0006", 
+    "nombre" : "Equipo6", 
+    "facultad" : 1.0
+}
+{ 
+    "_id" : "0007", 
+    "nombre" : "Equipo7", 
+    "facultad" : 9.0
+}
+{ 
+    "_id" : "0008", 
+    "nombre" : "Equipo8", 
+    "facultad" : 4.0
+}
+{ 
+    "_id" : "0009", 
+    "nombre" : "Equipo9", 
+    "facultad" : 10.0
+}
+{ 
+    "_id" : "0010", 
+    "nombre" : "Equipo10", 
+    "facultad" : 1.0
+}

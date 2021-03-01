@@ -1,0 +1,50 @@
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0d6"), 
+    "nombre" : "A", 
+    "presupuesto" : 3300.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0d7"), 
+    "nombre" : "B", 
+    "presupuesto" : 4500.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0d8"), 
+    "nombre" : "C", 
+    "presupuesto" : 1500.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0d9"), 
+    "nombre" : "D", 
+    "presupuesto" : 15000.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0da"), 
+    "nombre" : "E", 
+    "presupuesto" : 20000.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0db"), 
+    "nombre" : "F", 
+    "presupuesto" : 30000.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0dc"), 
+    "nombre" : "G", 
+    "presupuesto" : 10000.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0dd"), 
+    "nombre" : "H", 
+    "presupuesto" : 3240.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0de"), 
+    "nombre" : "I", 
+    "presupuesto" : 5600.0
+}
+{ 
+    "_id" : ObjectId("603bd09b4b5ccabb847bb0df"), 
+    "nombre" : "J", 
+    "presupuesto" : 7000.0
+}

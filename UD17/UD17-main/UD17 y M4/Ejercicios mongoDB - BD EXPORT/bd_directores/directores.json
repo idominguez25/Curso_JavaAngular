@@ -1,0 +1,50 @@
+{ 
+    "_id" : "48653178", 
+    "nomApels" : "Alba Alonso", 
+    "despacho" : 10.0
+}
+{ 
+    "_id" : "12345678", 
+    "nomApels" : "Benito Buenafuente", 
+    "despacho" : 15.0
+}
+{ 
+    "_id" : "78974565", 
+    "nomApels" : "Cecilia Castro", 
+    "despacho" : 10.0
+}
+{ 
+    "_id" : "98765432", 
+    "nomApels" : "Diego Devito", 
+    "despacho" : 20.0
+}
+{ 
+    "_id" : "10236211", 
+    "nomApels" : "Enrique Egarritxea", 
+    "despacho" : 25.0
+}
+{ 
+    "_id" : "46548632", 
+    "nomApels" : "Francisca Fernandez", 
+    "despacho" : 30.0
+}
+{ 
+    "_id" : "89798535", 
+    "nomApels" : "Gemma Gallego", 
+    "despacho" : 35.0
+}
+{ 
+    "_id" : "41564684", 
+    "omApels" : "Hector Hernandez", 
+    "despacho" : 40.0
+}
+{ 
+    "_id" : "35454882", 
+    "nomApels" : "Indira Iovaisha", 
+    "despacho" : 45.0
+}
+{ 
+    "_id" : "54521201", 
+    "nomApels" : "Jacinto Jaramillo", 
+    "despacho" : 55.0
+}

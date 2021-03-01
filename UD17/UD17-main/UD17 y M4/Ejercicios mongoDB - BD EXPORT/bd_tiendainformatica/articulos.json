@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0cc"), 
+    "nombre" : "teclado", 
+    "precio" : 34.0, 
+    "fabricante" : "intel"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0cd"), 
+    "nombre" : "raton", 
+    "precio" : 14.0, 
+    "fabricante" : "AMD"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0ce"), 
+    "nombre" : "pantalla", 
+    "precio" : 250.0, 
+    "fabricante" : "logitech"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0cf"), 
+    "nombre" : "camara", 
+    "precio" : 100.0, 
+    "fabricante" : "xiaomi"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d0"), 
+    "nombre" : "ram", 
+    "precio" : 50.0, 
+    "fabricante" : "Apple"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d1"), 
+    "nombre" : "placa", 
+    "precio" : 100.0, 
+    "fabricante" : "Microsoft"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d2"), 
+    "nombre" : "cable usb 2m", 
+    "precio" : 10.0, 
+    "fabricante" : "huawai"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d3"), 
+    "nombre" : "cable usb 5m", 
+    "precio" : 12.0, 
+    "fabricante" : "Samsung"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d4"), 
+    "nombre" : "disco duro", 
+    "precio" : 70.0, 
+    "fabricante" : "Panasonic"
+}
+{ 
+    "_id" : ObjectId("603bd0234b5ccabb847bb0d5"), 
+    "nombre" : "fuente de alimentacion", 
+    "precio" : 300.0, 
+    "fabricante" : "Sony"
+}

@@ -1,0 +1,45 @@
+{ 
+    "_id" : 15.0, 
+    "numero" : 15.0, 
+    "capacidad" : 50.0
+}
+{ 
+    "_id" : 20.0, 
+    "numero" : 20.0, 
+    "capacidad" : 100.0
+}
+{ 
+    "_id" : 25.0, 
+    "numero" : 25.0, 
+    "capacidad" : 150.0
+}
+{ 
+    "_id" : 30.0, 
+    "numero" : 30.0, 
+    "capacidad" : 100.0
+}
+{ 
+    "_id" : 35.0, 
+    "numero" : 35.0, 
+    "capacidad" : 70.0
+}
+{ 
+    "_id" : 40.0, 
+    "numero" : 40.0, 
+    "capacidad" : 55.0
+}
+{ 
+    "_id" : 45.0, 
+    "numero" : 45.0, 
+    "capacidad" : 90.0
+}
+{ 
+    "_id" : 50.0, 
+    "numero" : 50.0, 
+    "capacidad" : 100.0
+}
+{ 
+    "_id" : 55.0, 
+    "numero" : 55.0, 
+    "capacidad" : 210.0
+}
