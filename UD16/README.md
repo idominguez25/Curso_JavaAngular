@@ -18,12 +18,12 @@ CC21_REUS_JavaAngular_2
 
 Repositorio de los ejercicios:
 ```
-https://github.com/cesar-torrelles/UD16
+https://github.com/idominguez25/Curso_JavaAngular/tree/master/UD16
 ```
 ###   3. Lista de herramientas para poder ejecutarlo:
 ```
-MySQL Server 8.0
-MySQL Workbench 8.0
+-MySQL Server 8.0
+-MySQL Workbench 8.0
 ```
 ###  4. Screenshot imagen que indique cómo debe verse el proyecto.
 ![banerGit](https://github.com/cesar-torrelles/UD16/blob/main/IMAGEN.png)
