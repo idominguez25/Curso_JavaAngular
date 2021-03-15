@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    background-color: rgb(243, 218, 154);
+    font-size: 18px;
+}
+h3 {
+    color: rgb(109, 150, 204);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+em {
+    color: rgb(95, 131, 160);
+}
+
+#ingredientes, #preparacion {
+    color: rgb(95, 131, 160);
+    font-weight: bold;
+}

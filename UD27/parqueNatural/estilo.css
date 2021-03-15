@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lucida Sans Unicode';
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #70AF0A;
+	border-bottom: 1px solid #CFDFB5;
+}
+.verde {
+    color:  #5F8F11;
+}
+.marron {
+	color: #BF823B;
+}
+h3 {
+    color: #BF823B;
+}
+.sidebar {
+	float: left;
+	width: 140px;
+}
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	padding-right: 20px;
+}
+ul.nav li {
+	border: 1px solid #D3D3D3;
+	font-size: 90%;
+	background-color: #FFFFFF;
+	margin-bottom: 5px;
+}
+ul.nav a, ul.nav a:visited { 
+    display: block;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #4F4F4F;
+	background: linear-gradient(white 20%, rgb(163, 212, 108));
+	background-position: 0% bottom;
+	background-repeat: repeat-x;
+}
+
+ul.nav li:hover a{
+    background: linear-gradient(white 20%, rgb(223, 152, 72));
+	border-color: #9F9F9F;
+}
+.container {
+	width: 800px;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	border: 1px solid #D3D3D3;
+}
+.red_arriba {
+	background-image: url(imagenes/panoramica.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 200px;
+	position: relative;
+	top: -1px;
+	left: -1px;
+}
+.red_arriba div {
+	background-image: url(imagenes/panoramica.jpg);
+	background-position: right 0%;
+	background-repeat: no-repeat;
+	height: 10px;
+	position: relative;
+	right: -2px;
+}
+
