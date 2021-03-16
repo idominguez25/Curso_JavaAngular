@@ -3,13 +3,13 @@ palindromo("Esto no es un palíndromo");
 
 function palindromo(cadena) {
   
-    // Pasar a minusculas la cadena
+    // Pasar a minusculas la cadena.
     var cadenaOriginal = cadena.toLowerCase();
   
-    // Convertir la cadena en un array
+    // Convertir la cadena en un array.
     var letrasEspacios = cadenaOriginal.split("");
   
-    // Eliminar los espacios en blanco (este paso es demasiado largo ya que no se utiliza la funcion "replace")
+    // Eliminar los espacios en blanco.
     var cadenaSinEspacios = "";
     for(i in letrasEspacios) {
       if(letrasEspacios[i] != " ") {
@@ -20,22 +20,12 @@ function palindromo(cadena) {
     var letras = cadenaSinEspacios.split("");
     var letrasReves = cadenaSinEspacios.split("").reverse();
   
-    // Este paso tambien es muy largo porque no se utiliza la sentencia "break"
-    var iguales = true;
     for(i in letras) {
       if(letras[i] == letrasReves[i]) {
-        // Todo bien
+        alert( cadena + ": Es un palíndromo.");
       }
       else {
-        // Alguna letra es distinta, por lo que ya no es un palindromo
-        iguales = false;
+         alert(cadena + ": No es un palíndromo.");
       }
-    }
-  
-    if(iguales) {
-        alert( cadena + ": Es un palíndromo.")
-    }
-    else {
-        alert(cadena + ": No es un palíndromo.");
     }
   }
