@@ -1,0 +1,26 @@
+table {
+    width: "575";
+    border: "2";
+    align: "center" cellspacing="2" bordercolor="#000000";
+    background-color: lightgoldenrodyellow;
+    border: 2px black solid;
+}
+tr {
+    align: "center" valign="middle";
+    border: 2px black solid;
+}
+th{
+    border: 2px black solid;
+}
+td {
+    border: 2px black solid;
+}
+#primero {
+    background-color: #669966;
+}
+#segundo {
+    background-color: #FFCC99;
+}
+#tercero {
+    background-color: #FFFF99;
+}

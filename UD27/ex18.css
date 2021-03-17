@@ -1,0 +1,15 @@
+div.suelo{
+    position: relative;
+    top: 735px;
+    background-image: url("f01.png");
+    background-repeat: repeat-x;
+}
+div.mario{
+    position: fixed;
+    top: 640px;
+}
+div.nubes{
+    position: relative;
+    top: 500px;
+    background-repeat: repeat-x;
+}

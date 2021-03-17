@@ -1,0 +1,19 @@
+body {
+    background-image: url("ac.jpg");
+}
+div.f1 {
+    width: 15%;
+    height: 200px;
+    margin: 1%;
+    border: 1px black solid;
+    background-image: url("back_mantel.jpg");
+    background-repeat: repeat;
+}
+div.f2{
+    width: 15%;
+    height: 200px;
+    margin: 1%;
+    border: 1px black solid;
+    background-size: 5%;
+}
+}
