@@ -1,0 +1,38 @@
+nav {
+    padding-left: 50px;
+  }
+  
+.cabecera {
+    padding-left: 65px;
+  }
+  
+.subtitulo {
+    color: gray;
+  }
+  
+.contenedor {
+    display: flex;
+  }
+  
+.izquierda {
+    margin: 15px 20px 15px 65px;
+    width: 75%;
+  }
+  
+  body main .contenedor .izquierda .articulo .articulo-titulo .articulo-titulo-fecha {
+    color: gray;
+  }
+  
+  body main .contenedor .izquierda .articulo .articulo-cuerpo {
+    margin-top: 10px;
+  }
+  
+.derecha {
+    margin: 15px -35px 15px 65px;
+    width: 24%;
+  }
+  
+.enlaces {
+    display: flex;
+    flex-direction: column;
+  }

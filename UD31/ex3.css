@@ -1,0 +1,12 @@
+.btn {
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    &:active,
+    &:hover,
+    &:focus {
+      color: #000;
+      outline: none;
+      box-shadow: none;
+    }
+  }

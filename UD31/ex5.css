@@ -1,0 +1,24 @@
+#sel1 {
+height: 30px;
+width: 50px;
+font-size: 12px;
+}
+.container {
+    display: inline;
+}
+.table table-bordred table-striped {
+    border: lightgray;
+}
+tr{
+    height: 20px;
+}
+footer p{
+    font-size: 15px;
+}
+footer .btn-group {
+    text-decoration: none;
+}
+.btn-xs{
+    width: 20px;
+    height: 20px;
+}

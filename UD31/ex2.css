@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+.container {
+    display: block;
+    margin: 10%;
+    background-color: rgba(230, 230, 230, 0.39);
+    border: 2px lightgray solid;
+  }
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(56, 149, 224);
+    margin: 20px 0px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+.centro {
+    text-align: center;
+  }
+  
+.centro button {
+    margin-bottom: 30px;
+    background-color:rgb(56, 149, 224);
+    border-color:rgb(56, 149, 224);
+  }
