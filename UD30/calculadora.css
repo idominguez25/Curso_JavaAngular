@@ -1,0 +1,17 @@
+#calculadora {
+    background-color: #f8f8d9;
+    width: 250px;
+    text-align: center;
+    border: 2px black solid;
+  }
+  
+#pantalla {
+    background-color: white;
+    width: 175px;
+    margin-left: 15%;
+    border: 2px black solid;
+  }
+  
+#botones input {
+    width: 35px;
+  }
