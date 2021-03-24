@@ -10,6 +10,9 @@ Repositorio donde están los ejercicios de todas las UD's hechas durante el curs
 -Windows 10.
 -MySQL Server 8.
 -MySQL Workbench 8.0.
+-Visual Studio Code.
+-Spring Framework.
+-Angular.
 ```
 ### Utils/Librerías
 -JRE System Library 
