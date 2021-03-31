@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Ud25Ejercicio3Application {
+public class Ex3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Ud25Ejercicio3Application.class, args);
+		SpringApplication.run(Ex3Application.class, args);
 	}
 
 }
