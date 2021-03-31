@@ -5,10 +5,6 @@ package com.ejercicio1.dto;
 
 import javax.persistence.*;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Entity
 @Table(name="articulo")//en caso que la tabla sea diferente
 public class Articulo {
