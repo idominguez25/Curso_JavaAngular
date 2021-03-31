@@ -1,16 +1,8 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import com.ejercicio3.dto.MaquinaRegistradora;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IMaquinaRegistradoraService {
 	
 	public List<MaquinaRegistradora> listarMaquinaRegistradoras();
