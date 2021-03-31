@@ -1,21 +1,11 @@
-/**
- * 
- */
 package com.ejercicio2.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @Entity
-@Table(name="proyecto")//en caso que la tabla sea diferente
+@Table(name="proyecto")
 public class Proyecto {
 	
 	@Id
@@ -30,17 +20,10 @@ public class Proyecto {
 	@JoinColumn(name = "id")
 	private List<AsignadoA> asignadoA;
 	
+	//Constructores
 	public Proyecto() {
-		
 	}
 
-	/**
-	 * @param id
-	 * @param nombre
-	 * @param horas
-	 * @param asignadoA
-	 */
-	
 	public Proyecto(String id, String nombre, int horas, List<AsignadoA> asignadoA) {
 		super();
 		this.id = id;
@@ -51,60 +34,30 @@ public class Proyecto {
 
 
 
-	/**
-	 * @return the id
-	 */
+	//Getters y Setters
 	public String getId() {
 		return id;
 	}
 
-
-
-	/**
-	 * @param id the id to set
-	 */
 	public void setId(String id) {
 		this.id = id;
 	}
 
-
-
-	/**
-	 * @return the nombre
-	 */
 	public String getNombre() {
 		return nombre;
 	}
 
-
-
-	/**
-	 * @param nombre the nombre to set
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-
-	/**
-	 * @return the horas
-	 */
 	public int getHoras() {
 		return horas;
 	}
 
-
-
-	/**
-	 * @param horas the horas to set
-	 */
 	public void setHoras(int horas) {
 		this.horas = horas;
 	}
-
-
-
 
 	@JsonIgnore
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "AsignadoA")
@@ -112,18 +65,11 @@ public class Proyecto {
 		return asignadoA;
 	}
 
-
-
-
-	/**
-	 * @param asignadoA the asignadoA to set
-	 */
 	public void setAsignadoA(List<AsignadoA> asignadoA) {
 		this.asignadoA = asignadoA;
 	}
 
-
-
+	//toString
 	@Override
 	public String toString() {
 		return "Proyecto [id=" + id + ", nombre=" + nombre + ", horas=" + horas + ", asignadoA=" + asignadoA + "]";
