@@ -1,22 +1,13 @@
-/**
- * 
- */
 package com.ejercicio2.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio2.dao.ICientificoDao;
 import com.ejercicio2.dao.IProyectoDao;
 import com.ejercicio2.dto.Cientifico;
 import com.ejercicio2.dto.Proyecto;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class ProyectoServiceImpl implements IProyectoService{
 	
