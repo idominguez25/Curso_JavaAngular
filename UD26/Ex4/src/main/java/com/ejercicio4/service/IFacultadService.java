@@ -1,16 +1,8 @@
-/**
- * 
- */
 package com.ejercicio4.service;
 
 import java.util.List;
-
 import com.ejercicio4.dto.Facultad;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IFacultadService {
 	
 	public List<Facultad> listarFacultads();
