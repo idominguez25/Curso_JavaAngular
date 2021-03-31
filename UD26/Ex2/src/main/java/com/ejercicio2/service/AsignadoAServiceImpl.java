@@ -1,20 +1,11 @@
-/**
- * 
- */
 package com.ejercicio2.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio2.dao.IAsignadoADao;
 import com.ejercicio2.dto.AsignadoA;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class AsignadoAServiceImpl implements IAsignadoAService {
 
