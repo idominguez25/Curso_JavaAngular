@@ -1,21 +1,11 @@
-/**
- * 
- */
 package com.ejercicio1.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @Entity
-@Table(name="pieza")//en caso que la tabla sea diferente
+@Table(name="pieza")
 public class Pieza {
 	
 	@Id
@@ -27,74 +17,44 @@ public class Pieza {
 	@JoinColumn(name = "codigo")
 	private List<Suministra> suministra;
 	
+	//Controladores
 	public Pieza() {
 		
 	}
 
-
-	/**
-	 * @param nombre
-	 */
 	public Pieza(String nombre) {
 		super();
 		this.nombre = nombre;
 	}
 	
-	
-
-	/**
-	 * @return the codigo
-	 */
+	//Getters y Setters
 	public Long getCodigo() {
 		return codigo;
 	}
-
-
-	/**
-	 * @param codigo the codigo to set
-	 */
+	
 	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
 
-
-	/**
-	 * @return the nombre
-	 */
 	public String getNombre() {
 		return nombre;
 	}
 
-
-	/**
-	 * @param nombre the nombre to set
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-	/**
-	 * @return the suministra
-	 */
 	@JsonIgnore
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Suministra")
 	public List<Suministra> getSuministra() {
 		return suministra;
 	}
 
-
-
-	/**
-	 * @param suministra the suministra to set
-	 */
 	public void setSuministra(List<Suministra> suministra) {
 		this.suministra = suministra;
 	}
 
-
-	
-
+	//toString
 	@Override
 	public String toString() {
 		return "Pieza [codigo=" + codigo + ", nombre=" + nombre + ", suministra=" + suministra + "]";
