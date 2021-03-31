@@ -1,4 +1,4 @@
-package com.Ex1;
+package com.ejercicio1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
