@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ejercicio3.controller;
 
 import java.util.List;
@@ -10,11 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import com.ejercicio3.dto.Cajero;
 import com.ejercicio3.service.CajeroServiceImpl;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 
 @RestController
 @RequestMapping("/api")
