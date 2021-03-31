@@ -1,21 +1,11 @@
-/**
- * 
- */
 package com.ejercicio3.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @Entity
-@Table(name="producto")//en caso que la tabla sea diferente
+@Table(name="producto")
 public class Producto {
 	
 	@Id
@@ -28,17 +18,11 @@ public class Producto {
 	@JoinColumn(name = "codigo")
 	private List<Venta> venta;
 	
+	//Constructores
 	public Producto() {
 		
 	}
-
 	
-	/**
-	 * @param codigo
-	 * @param nombre
-	 * @param precio
-	 * @param venta
-	 */
 	public Producto(Long codigo, String nombre, Long precio, List<Venta> venta) {
 		this.codigo = codigo;
 		this.nombre = nombre;
@@ -48,57 +32,30 @@ public class Producto {
 
 
 
-	/**
-	 * @return the codigo
-	 */
+	//Getters y Setters
 	public Long getCodigo() {
 		return codigo;
 	}
 
-
-	/**
-	 * @param codigo the codigo to set
-	 */
 	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
 
-
-	/**
-	 * @return the nombre
-	 */
 	public String getNombre() {
 		return nombre;
 	}
 
-
-	/**
-	 * @param nombre the nombre to set
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-	/**
-	 * @return the precio
-	 */
 	public Long getPrecio() {
 		return precio;
 	}
 
-
-	/**
-	 * @param precio the precio to set
-	 */
 	public void setPrecio(Long precio) {
 		this.precio = precio;
 	}
-
-
-	/**
-	 * @return the venta
-	 */
 
 	@JsonIgnore
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Venta")
@@ -106,15 +63,11 @@ public class Producto {
 		return venta;
 	}
 	
-
-
-	/**
-	 * @param venta the venta to set
-	 */
 	public void setVenta(List<Venta> venta) {
 		this.venta = venta;
 	}
 
+	//toString
 	@Override
 	public String toString() {
 		return "Producto [codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", venta=" + venta + "]";
