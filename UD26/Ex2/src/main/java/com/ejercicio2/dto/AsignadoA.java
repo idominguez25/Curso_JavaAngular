@@ -45,6 +45,7 @@ public class AsignadoA {
 		this.proyecto = proyecto;
 	}
 
+	//toString
 	@Override
 	public String toString() {
 		return "AsignadoA [cientifico=" + cientifico + ", proyecto=" + proyecto + "]";
