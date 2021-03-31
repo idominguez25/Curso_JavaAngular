@@ -1,20 +1,11 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio3.dao.ICajeroDao;
 import com.ejercicio3.dto.Cajero;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class CajeroServiceImpl implements ICajeroService{
 	
