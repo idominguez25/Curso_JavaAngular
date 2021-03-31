@@ -1,20 +1,11 @@
-/**
- * 
- */
 package com.ejercicio4.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio4.dao.IFacultadDao;
 import com.ejercicio4.dto.Facultad;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class FacultadServiceImpl implements IFacultadService{
 	
