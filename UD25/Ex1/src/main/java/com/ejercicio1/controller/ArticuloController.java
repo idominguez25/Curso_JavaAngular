@@ -1,19 +1,14 @@
 /**
  * 
  */
-package com.ejercicio1.controller;
+package com.Ex1.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import com.Ex1.dto.Articulo;
+import com.Ex1.service.ArticuloServiceImpl;
 
-import com.ejercicio1.dto.Articulo;
-import com.ejercicio1.service.ArticuloServiceImpl;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 @RestController
 @RequestMapping("/api")
 public class ArticuloController {
