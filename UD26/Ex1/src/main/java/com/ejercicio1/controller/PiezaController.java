@@ -1,20 +1,10 @@
-/**
- * 
- */
 package com.ejercicio1.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import com.ejercicio1.dto.Pieza;
 import com.ejercicio1.service.PiezaServiceImpl;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 
 @RestController
 @RequestMapping("/api")
