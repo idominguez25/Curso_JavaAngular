@@ -1,19 +1,11 @@
-/**
- * 
- */
 package com.ejercicio4.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import com.ejercicio4.dto.Sala;
 import com.ejercicio4.service.SalaServiceImpl;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @RestController
 @RequestMapping("/api")
 public class SalaController {
