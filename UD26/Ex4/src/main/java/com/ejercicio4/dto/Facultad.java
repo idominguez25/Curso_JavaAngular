@@ -1,21 +1,11 @@
-/**
- * 
- */
 package com.ejercicio4.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @Entity
-@Table(name="facultad")//en caso que la tabla sea diferente
+@Table(name="facultad")
 public class Facultad {
 	
 	@Id
@@ -30,16 +20,10 @@ public class Facultad {
 	@JoinColumn(name = "codigo")
 	private List<Investigador> investigador;
 	
+	//Constructores
 	public Facultad() {
-		
 	}
 
-	/**
-	 * @param codigo
-	 * @param nombre
-	 * @param equipo
-	 * @param investigador
-	 */
 	public Facultad(Long codigo, String nombre, List<Equipo> equipo, List<Investigador> investigador) {
 		super();
 		this.codigo = codigo;
@@ -48,47 +32,27 @@ public class Facultad {
 		this.investigador = investigador;
 	}
 	
-	
-
-
-	/**
-	 * @return the codigo
-	 */
+	//Getters y Setters
 	public Long getCodigo() {
 		return codigo;
 	}
 
-	/**
-	 * @param codigo the codigo to set
-	 */
 	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
-
-	/**
-	 * @return the nombre
-	 */
+	
 	public String getNombre() {
 		return nombre;
 	}
 
-	/**
-	 * @param nombre the nombre to set
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-	/**
-	 * @param equipo the equipo to set
-	 */
 	public void setEquipo(List<Equipo> equipo) {
 		this.equipo = equipo;
 	}
 
-	/**
-	 * @param investigador the investigador to set
-	 */
 	public void setInvestigador(List<Investigador> investigador) {
 		this.investigador = investigador;
 	}
@@ -99,12 +63,10 @@ public class Facultad {
 		return investigador;
 	}
 
-
+	//toString
 	@JsonIgnore
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Equipo")
 	public List<Equipo> getEquipo() {
 		return equipo;
 	}
-
-
 }
