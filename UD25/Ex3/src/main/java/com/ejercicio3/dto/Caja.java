@@ -1,16 +1,9 @@
-/**
- * 
- */
 package com.ejercicio3.dto;
 
 import javax.persistence.*;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Entity
-@Table(name="caja")//en caso que la tabla sea diferente
+@Table(name="caja")
 public class Caja {
 	
 	@Id
@@ -24,18 +17,10 @@ public class Caja {
 	@JoinColumn(name="almacen_id")
 	private Almacen almacen;
 	
-	/**
-	 * Constructor por defecto 
-	 */
-	
-	public Caja() { }
+	//Constructores
+	public Caja() {
+	}
 
-	/**
-	 * @param numReferencia
-	 * @param contenido
-	 * @param valor
-	 * @param almacen
-	 */
 	public Caja(String numReferencia, String contenido, Double valor, Almacen almacen) {
 		super();
 		this.numReferencia = numReferencia;
@@ -44,62 +29,40 @@ public class Caja {
 		this.almacen = almacen;
 	}
 
-	/**
-	 * @return the numReferencia
-	 */
+	//Getters y Setters
 	public String getNumReferencia() {
 		return numReferencia;
 	}
 
-	/**
-	 * @param numReferencia the numReferencia to set
-	 */
 	public void setNumReferencia(String numReferencia) {
 		this.numReferencia = numReferencia;
 	}
 
-	/**
-	 * @return the contenido
-	 */
 	public String getContenido() {
 		return contenido;
 	}
 
-	/**
-	 * @param contenido the contenido to set
-	 */
 	public void setContenido(String contenido) {
 		this.contenido = contenido;
 	}
 
-	/**
-	 * @return the valor
-	 */
 	public Double getValor() {
 		return valor;
 	}
 
-	/**
-	 * @param valor the valor to set
-	 */
 	public void setValor(Double valor) {
 		this.valor = valor;
 	}
 
-	/**
-	 * @return the almacen
-	 */
 	public Almacen getAlmacen() {
 		return almacen;
 	}
 
-	/**
-	 * @param almacen the almacen to set
-	 */
 	public void setAlmacen(Almacen almacen) {
 		this.almacen = almacen;
 	}
 
+	//toString
 	@Override
 	public String toString() {
 		return "Caja [numReferencia=" + numReferencia + ", contenido=" + contenido + ", valor=" + valor + ", almacen="
