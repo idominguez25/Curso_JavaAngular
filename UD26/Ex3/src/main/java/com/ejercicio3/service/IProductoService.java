@@ -1,16 +1,8 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import com.ejercicio3.dto.Producto;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IProductoService {
 	
 	public List<Producto> listarProductoes();
