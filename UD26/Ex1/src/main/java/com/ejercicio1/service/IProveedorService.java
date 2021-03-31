@@ -1,15 +1,8 @@
-/**
- * 
- */
 package com.ejercicio1.service;
 
 import java.util.List;
 import com.ejercicio1.dto.Proveedor;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IProveedorService {
 	
 	public List<Proveedor> listarProveedores();
