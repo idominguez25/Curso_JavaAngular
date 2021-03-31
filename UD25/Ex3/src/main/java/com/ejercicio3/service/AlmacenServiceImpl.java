@@ -1,20 +1,11 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio3.dao.IAlmacenDao;
 import com.ejercicio3.dto.Almacen;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class AlmacenServiceImpl implements IAlmacenService{
 	
