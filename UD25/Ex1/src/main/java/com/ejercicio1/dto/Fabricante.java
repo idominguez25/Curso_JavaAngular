@@ -1,18 +1,8 @@
-/**
- * 
- */
 package com.ejercicio1.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 
 @Entity
 @Table(name="fabricante")//en caso que la tabla sea diferente
