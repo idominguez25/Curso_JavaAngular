@@ -1,21 +1,11 @@
-/**
- * 
- */
 package com.ejercicio4.dto;
 
 import java.util.List;
-
 import javax.persistence.*;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @Entity
-@Table(name="equipo")//en caso que la tabla sea diferente
+@Table(name="equipo")
 public class Equipo {
 	
 	@Id
@@ -31,18 +21,10 @@ public class Equipo {
 	@JoinColumn(name="facultad_id")
 	private Facultad facultad;
 	
-	
+	//Constructores
 	public Equipo() {
-		
 	}
 	
-
-	/**
-	 * @param numSerie
-	 * @param nombre
-	 * @param reserva
-	 * @param facultad
-	 */
 	public Equipo(String numSerie, String nombre, List<Reserva> reserva, Facultad facultad) {
 		this.numSerie = numSerie;
 		this.nombre = nombre;
@@ -50,73 +32,42 @@ public class Equipo {
 		this.facultad = facultad;
 	}
 	
-	
-
-	/**
-	 * @return the numSerie
-	 */
+	//Getters y Setters
 	public String getNumSerie() {
 		return numSerie;
 	}
 
-
-	/**
-	 * @param numSerie the numSerie to set
-	 */
 	public void setNumSerie(String numSerie) {
 		this.numSerie = numSerie;
 	}
 
-
-	/**
-	 * @return the nombre
-	 */
 	public String getNombre() {
 		return nombre;
 	}
 
-
-	/**
-	 * @param nombre the nombre to set
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-	/**
-	 * @return the reserva
-	 */
 	@JsonIgnore
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "Reserva")
 	public List<Reserva> getReserva() {
 		return reserva;
 	}
 
-	/**
-	 * @param reserva the reserva to set
-	 */
 	public void setReserva(List<Reserva> reserva) {
 		this.reserva = reserva;
 	}
 
-
-	/**
-	 * @return the facultad
-	 */
 	public Facultad getFacultad() {
 		return facultad;
 	}
 
-
-	/**
-	 * @param facultad the facultad to set
-	 */
 	public void setFacultad(Facultad facultad) {
 		this.facultad = facultad;
 	}
 
-
+	//toString
 	@Override
 	public String toString() {
 		return "Equipo [numSerie=" + numSerie + ", nombre=" + nombre + ", reserva=" + reserva + ", facultad="
