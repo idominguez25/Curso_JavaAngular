@@ -1,20 +1,10 @@
-/**
- * 
- */
 package com.ejercicio2.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import com.ejercicio2.dto.Departamento;
 import com.ejercicio2.service.DepartamentoServiceImpl;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 
 @RestController
 @RequestMapping("/api")
