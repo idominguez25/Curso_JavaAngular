@@ -1,20 +1,10 @@
-/**
- * 
- */
 package com.ejercicio4.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import com.ejercicio4.dto.Facultad;
 import com.ejercicio4.service.FacultadServiceImpl;
-
-/**
- * @author Miguel A. Sastre
- *
- */
 
 @RestController
 @RequestMapping("/api")
