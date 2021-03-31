@@ -1,16 +1,8 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import com.ejercicio3.dto.Almacen;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IAlmacenService {
 	
 	public List<Almacen> listarAlmacenes();
