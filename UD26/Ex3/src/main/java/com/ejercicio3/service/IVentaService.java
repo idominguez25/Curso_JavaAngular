@@ -1,17 +1,9 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import com.ejercicio3.dto.MaquinaRegistradora;
 import com.ejercicio3.dto.Venta;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface IVentaService {
 	
 	public List<Venta> listarVenta();
