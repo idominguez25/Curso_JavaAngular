@@ -1,20 +1,11 @@
-/**
- * 
- */
 package com.ejercicio1.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio1.dao.ISuministraDao;
 import com.ejercicio1.dto.Suministra;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class SuministraServiceImpl implements ISuministraService {
 
@@ -45,7 +36,4 @@ public class SuministraServiceImpl implements ISuministraService {
 	public Suministra getSuministraXCodigoPieza(Integer codigoPieza) {
 		return iSuministraDao.findById(codigoPieza).get();
 	}
-
-	
-
 }
