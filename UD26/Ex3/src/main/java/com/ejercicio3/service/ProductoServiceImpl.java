@@ -1,22 +1,13 @@
-/**
- * 
- */
 package com.ejercicio3.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.ejercicio3.dao.IMaquinaRegistradoraDao;
 import com.ejercicio3.dao.IProductoDao;
 import com.ejercicio3.dto.MaquinaRegistradora;
 import com.ejercicio3.dto.Producto;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 @Service
 public class ProductoServiceImpl implements IProductoService{
 	
