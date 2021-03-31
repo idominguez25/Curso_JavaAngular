@@ -1,16 +1,8 @@
-/**
- * 
- */
 package com.ejercicio2.service;
 
 import java.util.List;
-
 import com.ejercicio2.dto.Cientifico;
 
-/**
- * @author Miguel A. Sastre
- *
- */
 public interface ICientificoService {
 	
 	public List<Cientifico> listarCientificos();
