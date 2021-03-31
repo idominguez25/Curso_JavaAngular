@@ -11,11 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import com.ejercicio1.dto.Fabricante;
 import com.ejercicio1.service.FabricanteServiceImpl;
 
-/**
- * @author Miguel A. Sastre
- *
- */
-
 @RestController
 @RequestMapping("/api")
 public class FabricanteController {
